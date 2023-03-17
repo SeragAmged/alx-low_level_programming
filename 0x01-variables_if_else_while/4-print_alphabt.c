@@ -12,7 +12,7 @@ char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 for (i = 0; i < 26; i++)
 {
-if(alpha[i] == 'q' || alpha[i] == 'e')
+if (alpha[i] == 'q' || alpha[i] == 'e')
 continue;
 putchar(alpha[i]);
 }
