@@ -15,5 +15,5 @@ putchar(alpha[i]);
 for (i = 0; i < 26; i++)
 putchar(toupper(alpha[i]));
 putchar('\n');
-return (0); 
+return (0);
 }
