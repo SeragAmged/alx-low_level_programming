@@ -21,7 +21,7 @@ putchar(i + '0');
 putchar(j + '0');
 putchar(k + '0');
 
-if (j == 9 && i == 8 && k == 7)
+if (i == 7 && j == 8 && k == 9)
 continue;
 putchar(',');
 putchar(' ');
