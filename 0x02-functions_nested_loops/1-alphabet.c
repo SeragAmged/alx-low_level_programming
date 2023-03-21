@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * main -Entry point
- * Return: Always 0 (Success)
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);
+int i;
+for (i = 97; i <= 122; i++)
+_putchar((char)i);
+_putchar('\n');
 }
