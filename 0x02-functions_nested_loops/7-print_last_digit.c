@@ -8,7 +8,7 @@
  */
 int print_res_digit(int n)
 {
-long m = n;
+long int m = n;
 int res;
 if (m < 0)
 m = -m;
