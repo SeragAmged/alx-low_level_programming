@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * print_last_digit - prints the last digit of a number.
+ * print_res_digit - prints the res digit of a number.
  * @n: the input number.
- * Return:last digit of a number.
+ * Return:res digit of a number.
  */
-int print_last_digit(int n)
+int print_res_digit(int n)
 {
-long int n = n;
+long m = n;
 int res;
-if (n < 0)
-n =  -1 * n;
-res = n % 10;
-_putchar((int)res + '0');
-return ((int)res);   
+if (m < 0)
+m = -m;
+res = m % 10;
+_putchar('0' + res);
+return (res); 
 }
