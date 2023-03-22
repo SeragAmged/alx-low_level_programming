@@ -13,6 +13,6 @@ int res;
 if (m < 0)
 m = -m;
 res = m % 10;
-_putchar('0' + res);
+_putchar(res + '0');
 return (res); 
 }
