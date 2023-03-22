@@ -2,7 +2,7 @@
 #include <limits.h>
 
 /**
- * print_res_digit - prints the res digit of a number.
+ * print_last_digit - prints the res digit of a number.
  * @n: the input number.
  * Return:res digit of a number.
  */
