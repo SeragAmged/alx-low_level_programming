@@ -2,7 +2,7 @@
 
 /**
  * add - Adds two integers.
- * 
+ *
  * @num1: The first int to be added.
  * @num2: The second int to be added.
  *
