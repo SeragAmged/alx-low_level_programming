@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*print_most_numbers - prints
+*print_most_numbers - print numbers 1:9 expect 2&4 .
 *Return: void
 */
 
