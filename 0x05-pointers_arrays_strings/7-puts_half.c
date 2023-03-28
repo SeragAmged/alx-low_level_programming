@@ -21,7 +21,7 @@ n = (len / 2);
 n++;
 
 for (len = n; str[len] != '\0'; len++)
-_putchar(str[len]);
+putchar(str[len]);
 
-_putchar('\n');
+putchar('\n');
 }
