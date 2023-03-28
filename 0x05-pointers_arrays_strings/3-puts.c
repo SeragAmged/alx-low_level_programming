@@ -8,9 +8,11 @@
 int _puts(char *s)
 {
 int c = 0;
-
-for (; *s++;)
-putchar(&s);
+for (; *s; s++)
+{
+putchar(*s);
+c++;
+}
 putchar('\n');
-return (c);
+return c;
 }
