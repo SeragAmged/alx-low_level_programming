@@ -8,7 +8,7 @@
 * Return: 0 if success.
 */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 int i, c, j;
 char temp;
