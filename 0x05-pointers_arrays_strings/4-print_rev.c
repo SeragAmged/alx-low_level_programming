@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
 * print_rev -> printing a string in reverse.
@@ -15,7 +17,7 @@ while (s[c] != '\0')
 c++;
 
 for (i = c - 1; i >= 0; i--)
-_putchar(s[i]);
+putchar(s[i]);
 
-_putchar('\n');
+putchar('\n');
 }
