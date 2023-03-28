@@ -5,7 +5,7 @@
  * @s: the string.
  * Return: 0 if success.
  */
-int _puts(char *s)
+void _puts(char *s)
 {
 int c = 0;
 for (; *s; s++)
