@@ -18,11 +18,10 @@ while (s[len] != '\0')
 len++;
 
 j = len - 1;
-for (i = 0; i < len; i++)
+for (i = 0; i < len && j >= 0; i++, j--)
 {
 temp = s[i];
 s[i] = s[j];
 s[j] = temp;
-j--;
 }
 }
